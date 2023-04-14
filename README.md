@@ -7,5 +7,6 @@
 - python manage.py makemigrations
 - python manage.py migrate
 - pythn manage.py createsuperuser
+- python manage.py runserver
 
 

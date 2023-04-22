@@ -8,7 +8,7 @@ urlpatterns = [
     path('account/', include([
         path('', AccountViewSet.as_view(
             {'post': 'account'}
-        )),
+        ), name='account'),
         path('<uuid:pk>/', include([
             path('verify-cellphone/', AccountViewSet.as_view(
                 {'post': 'verify_cellphone'}

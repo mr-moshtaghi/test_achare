@@ -8,5 +8,7 @@
 - python manage.py migrate
 - pythn manage.py createsuperuser
 - python manage.py runserver
+## run test
+- pytest -v
 
 
